@@ -131,6 +131,6 @@ Contributions and improvements to this portfolio project are welcome! If you hav
 
 This project is private and does not specify a license. Please review the project's licensing requirements accordingly.
 
-```
 
-Replace `https://github.com/BhathikaGimhan/React-Frame-Motion` with the actual URL of your Git repository. This README provides a comprehensive overview of the project, installation instructions, usage guidelines, key features, dependencies, contribution guidelines, and mentions the need to specify a license if the project is intended to be open-source.
+Replace `[<repository-url>](https://github.com/BhathikaGimhan/React-Frame-Motion)` with the actual URL of your Git repository. This README provides a comprehensive overview of the project, installation instructions, usage guidelines, key features, dependencies, contribution guidelines, and mentions the need to specify a license if the project is intended to be open-source.
+
