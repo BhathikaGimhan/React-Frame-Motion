@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply m-0 p-0 box-border text-slate-950;
+}
+
+.nav{
+    @apply fixed w-full flex justify-between ;
+}
+.nav-links{
+    @apply flex;
+}
+.logo, .nav-item{
+    @apply m-8 font-medium text-2xl;
+}
+h1{
+    @apply w-4/5 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center font-medium text-9xl uppercase;
+}
+a{
+    @apply no-underline font-medium;
+}
+.slide-in{
+    @apply fixed top-0 left-0 w-full h-screen bg-[#0f0f0f] origin-left;
+}
+.slide-out{
+    @apply fixed top-0 left-0 w-full h-screen bg-[#0f0f0f] origin-right;
+}
+
+
+  /* Sidebar Styles */
+  .sidebar {
+    @apply fixed top-0 left-0 h-screen w-60 bg-gray-100 p-6 transform transition-transform duration-300 ease-in-out;
+  }
+  
+  .sidebar.open {
+    @apply translate-y-0;
+  }
+  
+  /* Media Query for Larger Screens */
+  @media (min-width: 768px) {
+    /* Show default navigation links on larger screens */
+    .nav-links {
+      @apply md:flex;
+    }
+  
+    /* Hide the menu icon on larger screens */
+    .menu-icon {
+      @apply hidden;
+    }
+  
+    /* Hide the sidebar on larger screens */
+    .sidebar {
+      @apply hidden;
+    }
+  }
